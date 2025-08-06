@@ -8,7 +8,7 @@
 # Prerequisites: 
 
 + A Windows PC
-+ T-Mobile Sim Card
++ (Active?) T-Mobile Sim Card
   - (T-Mobile MVNOs *should* work too)
 + [Bifrost](https://github.com/zacharee/SamloaderKotlin/releases/download/1.20.2/bifrost.exe)
 + [ODIN](https://xdaforums.com/attachments/odin3-v3-14-1_3b_patched-zip.5158507/)
@@ -44,7 +44,7 @@
 
 > 💡 OR just "*U*" if your model ended in "*U1*" in the previous step! 💡
 
-⭐ After you're done downloading both firmware files, you should have one with "U1" AND one with "U" in the filename, like this:
+⭐ After you're done downloading both firmware files, you should have one with *"U1"* AND one with *"U"* in the filename, like this:
 
 <img width="812" height="89" alt="image" src="https://github.com/user-attachments/assets/95b21787-b21f-46bf-902d-bdb66731e2d6" />
 
@@ -56,7 +56,7 @@
 
 <div align="center"> 
 
-# ⚡ Flashing Firmware:
+# ⚡ Flashing Firmware (1/2):
 
 </div>
 
@@ -69,25 +69,71 @@
 
 <div align="center"> 
 
-⭐ When both files have been unzipped, you should have a folder with the firmware files inside!
-
-<img width="652" height="179" alt="image" src="https://github.com/user-attachments/assets/84092568-a691-46c8-a8c6-3be391fd8220" />
-
-❗❗ Use the *"U"* firmware files for this first flash!! 💡 <br/>
-⭐ Open ODIN and make sure to put the files in their corrisponding slots:
-
-<img width="870" height="648" alt="image" src="https://github.com/user-attachments/assets/ceda485a-7534-4dc2-a5a6-7b4cbd0574f8" />
-
-❗❗ ***MAKE SURE TO USE HOME_CSC IN THE CSC TAB OR YOU WILL WIPE YOUR DATA!*** ❗❗ <br/>
-❗❗ ***YOU DO NOT NEED TO PUT THE USERDATA FILE IN IT'S RESPECTIVE SLOT*** ❗❗
-
 ---
 
 ## Enter Download Mode:
 ### Most "newer" Samsung devices without a Bixby button enter Download Mode like this:
-### 1. Power off your device
-### 2. Plug your phone into your PC while holding Vol up + Vol down
+### 1. Plug your phone into your PC then turn your phone off
+### 2. Wait for your phone to fully turn off and then hold Vol up + Vol down
 ### 3. When the warning screen pops up, press the Vol up button
+### 4. If it worked you should see you device pop up in ODIN as "0:[COM#]"
 ### If you are trying this on an older device, look up a guide on how to enter Download Mode on YOUR device.
+### If for some reason ODIN does not detect your device in Download Mode, make sure you installed the Samsung USB Drivers!
 
 ---
+
+⭐ When both files have been unzipped, you should have a folder with the firmware files inside!
+
+<img width="652" height="179" alt="image" src="https://github.com/user-attachments/assets/84092568-a691-46c8-a8c6-3be391fd8220" />
+
+> ❗❗ **Use the *"U1"* firmware files for this first flash!!** ❗❗ <br/>
+
+⭐ Open ODIN and make sure to put the files in their corrisponding slots:
+
+<img width="870" height="649" alt="image" src="https://github.com/user-attachments/assets/b6ec607c-4463-4423-8eaf-afd2d1198dd9" />
+
+> ❗❗ **MAKE SURE TO USE HOME_CSC IN THE CSC TAB OR YOU WILL WIPE YOUR DATA!** ❗❗ <br/>
+> ❗❗ **YOU DO NOT NEED TO PUT THE USERDATA FILE IN IT'S RESPECTIVE SLOT** ❗❗
+
+⭐ Once you have every file in place, click **Start**, and your device should begin to flash
+⭐ If everything went well, you should see PASS in ODIN, and your device should reboot!
+
+> ❗❗ **IF THE FLASH FAILS, YOU MAY BE UNABLE TO CONTINUE.. DOUBLE CHECK THAT YOU DOWNLOADED REGION CODE "SPR"** ❗❗
+
+<img width="871" height="649" alt="image" src="https://github.com/user-attachments/assets/d7d73c3f-56da-42d7-858a-de9ca38f55d8" />
+
+</div>
+
+---
+
+<div align="center"> 
+
+# 🔓 Attempting UICC Unlock (1/2):
+
+</div>
+
+> [!WARNING]
+> This is where I'm very unsure of how it works, so if UICC Unlock fails for you,<br/>
+> or UICC Unlock doesn't show up, you may be unable to get your device unlocked.
+
+> [!NOTE]
+> You may be able to use T-Mobile's network pass to get an active eSIM to unlock<br/>
+> However this requires having a Sim inserted from a T-Mobile MVNO.<br/>
+> There may be an update in the future showing how to achieve this..
+
+<div align="center"> 
+
+> **❗❗ Make sure your ***Model Name*** ends in *"U1"* in settings! ❗❗** 
+
+<img width="360" height="33" alt="image" src="https://github.com/user-attachments/assets/40683cd7-10fb-42ea-97b6-c4beafe972f1" />
+
+⭐ Insert your T-Mobile (or T-Mobile MVNO) Sim Card to make sure it gets service OR at least shows in <br/> ***Settings > Connections > SIM Manager***
+> 💡 You may be prompted to restart your phone! 💡
+<img width="408" height="139" alt="image" src="https://github.com/user-attachments/assets/c5e65c8a-c96c-454a-890a-71ca286e5afd" />
+
+⭐ After confirming that your Sim can be read and displayed, go to ***Settings > Software Update*** <br/>
+and make sure that ***UICC Unlock*** is displayed.
+> 💡 If you have an active Sim Card, make a test call, or browse the internet to make sure service is working before continuing. 💡 <br/>
+> ⚠️ If you do NOT have an active Sim Card, connect to Wifi before continuing. ⚠️
+
+⭐ After ensuring ***UICC Unlock*** is showing in Software Update you can once again place your phone into [Download Mode](#enter-download-mode)
