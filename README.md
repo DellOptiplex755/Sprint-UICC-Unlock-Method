@@ -6,6 +6,7 @@
 
 
 # Prerequisites: 
+Please make sure to download and set up everything before reading further!
 
 + A Windows PC
 + (Active?) T-Mobile Sim Card
@@ -82,7 +83,7 @@
 
 ---
 
-⭐ When both files have been unzipped, you should have a folder with the firmware files inside!
+⭐ When both files have been unzipped, you should have two folders with the firmware files inside!
 
 <img width="652" height="179" alt="image" src="https://github.com/user-attachments/assets/84092568-a691-46c8-a8c6-3be391fd8220" />
 
@@ -98,7 +99,7 @@
 ⭐ Once you have every file in place, click **Start**, and your device should begin to flash
 ⭐ If everything went well, you should see PASS in ODIN, and your device should reboot!
 
-> ❗❗ **IF THE FLASH FAILS, YOU MAY BE UNABLE TO CONTINUE.. DOUBLE CHECK THAT YOU DOWNLOADED REGION CODE "SPR"** ❗❗
+> ❗❗ **IF THE FLASH FAILS, YOU WILL BE UNABLE TO CONTINUE.. DOUBLE CHECK THAT YOU DOWNLOADED REGION CODE "SPR"** ❗❗
 
 <img width="871" height="649" alt="image" src="https://github.com/user-attachments/assets/d7d73c3f-56da-42d7-858a-de9ca38f55d8" />
 
@@ -136,4 +137,61 @@ and make sure that ***UICC Unlock*** is displayed.
 > 💡 If you have an active Sim Card, make a test call, or browse the internet to make sure service is working before continuing. 💡 <br/>
 > ⚠️ If you do NOT have an active Sim Card, connect to Wifi before continuing. ⚠️
 
-⭐ After ensuring ***UICC Unlock*** is showing in Software Update you can once again place your phone into [Download Mode](#enter-download-mode)
+⭐ After ensuring ***UICC Unlock*** is showing in Software Update you can now move on to flashing firmware again.
+
+<div/>
+
+---
+
+<div align="center"> 
+
+# ⚡ Flashing Firmware (2/2):
+
+⭐ Place your phone into [Download Mode](#enter-download-mode) once again.<br/>
+> ❗❗ **Use the *"U"* firmware files for this second flash!!** ❗❗ <br/>
+
+⭐ Open ODIN and make sure to put the files in their corrisponding slots:
+
+<img width="870" height="649" alt="image" src="https://github.com/user-attachments/assets/b6ec607c-4463-4423-8eaf-afd2d1198dd9" />
+
+> ❗❗ **MAKE SURE TO USE HOME_CSC IN THE CSC TAB OR YOU WILL WIPE YOUR DATA!** ❗❗ <br/>
+> ❗❗ **YOU DO NOT NEED TO PUT THE USERDATA FILE IN IT'S RESPECTIVE SLOT** ❗❗
+
+⭐ Once you have every file in place, click **Start**, and your device should begin to flash<br/>
+⭐ If everything went well, you should see PASS in ODIN, and your device should reboot!
+
+> ❗❗ **IF THE FLASH FAILS, YOU WILL BE UNABLE TO CONTINUE.. DOUBLE CHECK THAT YOU DOWNLOADED REGION CODE "SPR"** ❗❗
+
+<img width="871" height="649" alt="image" src="https://github.com/user-attachments/assets/d7d73c3f-56da-42d7-858a-de9ca38f55d8" />
+
+<div/>
+
+---
+
+<div align="center"> 
+
+# 🔓 Attempting UICC Unlock (2/2):
+
+> 💡 Booting should take a bit longer than usual, do not panic! 💡<br/>
+> 💡 Your phone may show a Sprint or T-Mobile welcome screen this time, this is good! 💡
+
+⭐ Once you are fully booted back into android, make sure you're connected to Mobile Data. (or Wifi if you dont have an active Sim)
+
+> ⚠️ Do not be alarmed if random apps appeared/start to download, this is Carrier Bloat and normal! (*Unfortunately*) ⚠️
+
+⭐ Let your phone settle for a little bit (approx. 5-10min), and then head to ***Settings > Software Update***<br/>
+⭐ Tap on ***UICC Unlock***, you should hopefully get a popup like this:
+
+<img width="341" height="750" alt="image" src="https://github.com/user-attachments/assets/91b01c71-99c1-4fad-9e98-27978f09f8e3" />
+
+> ⚠️ If the ***UICC Unlock*** popup, opens and instantly closes, wait a bit longer or check your connection.⚠️
+
+⭐ If everything went smoothly.... CONGRATULATIONS!!!! YOU DID IT!!!!! You should recieve a popup like this:
+
+<img width="339" height="747" alt="image" src="https://github.com/user-attachments/assets/6d7ffd35-1970-4e22-9b49-1757e96809dd" />
+
+---
+
+### Apologies if this is a bit confusing and not the best looking, this is my first time doing a "write up" on something so... complex lmfao
+
+
