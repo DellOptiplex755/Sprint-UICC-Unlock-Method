@@ -2,7 +2,7 @@
 
 > [!WARNING]
 > Your mileage may vary! I'm not 100% certain this will work for you! <br/>
-> ***ONLY do this if you have the free time, and are willing to do lots of troubleshooting if it DOES NOT WORK!***
+> ***ONLY*** for Samsung Galaxy devices as of now.
 
 
 # Prerequisites: 
@@ -13,7 +13,7 @@ Please make sure to download and set up everything before reading further!
   - (T-Mobile MVNOs *should* work too)
 + [Bifrost](https://github.com/zacharee/SamloaderKotlin/releases/download/1.20.2/bifrost.exe)
 + [ODIN](https://xdaforums.com/attachments/odin3-v3-14-1_3b_patched-zip.5158507/)
-+ [Offical Samsung USB Drivers](https://developer.samsung.com/android-usb-driver)
++ [Official Samsung USB Drivers](https://developer.samsung.com/android-usb-driver)
 + Most importantly **PATIENCE!**
 
 ---
@@ -173,11 +173,11 @@ and make sure that ***UICC Unlock*** is displayed.
 # 🔓 Attempting UICC Unlock (2/2):
 
 > 💡 Booting should take a bit longer than usual, do not panic! 💡<br/>
-> 💡 Your phone may show a Sprint or T-Mobile welcome screen this time, this is good! 💡
+> 💡 Your phone may show a Sprint or T-Mobile boot logo this time, this is good! 💡
 
 ⭐ Once you are fully booted back into android, make sure you're connected to Mobile Data. (or Wifi if you dont have an active Sim)
 
-> ⚠️ Do not be alarmed if random apps appeared/start to download, this is Carrier Bloat and normal! (*Unfortunately*) ⚠️
+> ⚠️ Do not be alarmed if random apps have appeared or start to download, this is Carrier Bloat and (*Unfortunately*) normal! ⚠️
 
 ⭐ Let your phone settle for a little bit (approx. 5-10min), and then head to ***Settings > Software Update***<br/>
 ⭐ Tap on ***UICC Unlock***, you should hopefully get a popup like this:
@@ -191,9 +191,13 @@ and make sure that ***UICC Unlock*** is displayed.
 <img width="339" height="747" alt="image" src="https://github.com/user-attachments/assets/6d7ffd35-1970-4e22-9b49-1757e96809dd" />
 
 🎉 [You should now have an UNLOCKED Sprint phone!!!!](https://www.youtube.com/watch?v=mD3v1B_aXw0) 🎉
+
 ---
 
 ### Apologies if this is a bit confusing and not the best looking, this is my first time doing a "write up" on something so... complex lmfao
+
+### I'll be trying to get more Sprint locked devices to iron our any issues, or if I missed a step, but this is exactly how I got my S20+ unlocked.
+
 ### Thank you so much for reading, and I hope it worked for you!!!!
 
 
