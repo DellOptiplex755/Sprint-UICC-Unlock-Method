@@ -77,7 +77,7 @@ Please make sure to download and set up everything before reading further!
 ### 1. Plug your phone into your PC then turn your phone off
 ### 2. Wait for your phone to fully turn off and then hold Vol up + Vol down
 ### 3. When the warning screen pops up, press the Vol up button
-### 4. If it worked you should see you device pop up in ODIN as "0:[COM#]"
+### 4. If it worked you should see your device pop up in ODIN as "0:[COM#]"
 ### If you are trying this on an older device, look up a guide on how to enter Download Mode on YOUR device.
 ### If for some reason ODIN does not detect your device in Download Mode, make sure you installed the Samsung USB Drivers!
 
@@ -96,7 +96,7 @@ Please make sure to download and set up everything before reading further!
 > ❗❗ **MAKE SURE TO USE HOME_CSC IN THE CSC TAB OR YOU WILL WIPE YOUR DATA!** ❗❗ <br/>
 > ❗❗ **YOU DO NOT NEED TO PUT THE USERDATA FILE IN IT'S RESPECTIVE SLOT** ❗❗
 
-⭐ Once you have every file in place, click **Start**, and your device should begin to flash
+⭐ Once you have every file in place, click **Start**, and your device should begin to flash<br/>
 ⭐ If everything went well, you should see PASS in ODIN, and your device should reboot!
 
 > ❗❗ **IF THE FLASH FAILS, YOU WILL BE UNABLE TO CONTINUE.. DOUBLE CHECK THAT YOU DOWNLOADED REGION CODE "SPR"** ❗❗
@@ -190,6 +190,7 @@ and make sure that ***UICC Unlock*** is displayed.
 
 <img width="339" height="747" alt="image" src="https://github.com/user-attachments/assets/6d7ffd35-1970-4e22-9b49-1757e96809dd" />
 
+🎉 [You should now have an UNLOCKED Sprint phone!!!!](https://www.youtube.com/watch?v=mD3v1B_aXw0) 🎉
 ---
 
 ### Apologies if this is a bit confusing and not the best looking, this is my first time doing a "write up" on something so... complex lmfao
