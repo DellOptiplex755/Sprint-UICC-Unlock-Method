@@ -11,6 +11,7 @@ Please make sure to download and set up everything before reading further!
 + A Windows PC
 + (Active?) T-Mobile Sim Card
   - (T-Mobile MVNOs *should* work too)
+  - (WiFi only is untested, but may work!)
 + [Bifrost](https://github.com/zacharee/SamloaderKotlin/releases/download/1.20.2/bifrost.exe)
 + [ODIN](https://xdaforums.com/attachments/odin3-v3-14-1_3b_patched-zip.5158507/)
 + [Official Samsung USB Drivers](https://developer.samsung.com/android-usb-driver)
@@ -97,6 +98,7 @@ Please make sure to download and set up everything before reading further!
 > ❗❗ **YOU DO NOT NEED TO PUT THE USERDATA FILE IN IT'S RESPECTIVE SLOT** ❗❗
 
 ⭐ Once you have every file in place, click **Start**, and your device should begin to flash<br/>
+
 ⭐ If everything went well, you should see PASS in ODIN, and your device should reboot!
 
 > ❗❗ **IF THE FLASH FAILS, YOU WILL BE UNABLE TO CONTINUE.. DOUBLE CHECK THAT YOU DOWNLOADED REGION CODE "SPR"** ❗❗
@@ -135,7 +137,7 @@ Please make sure to download and set up everything before reading further!
 ⭐ After confirming that your Sim can be read and displayed, go to ***Settings > Software Update*** <br/>
 and make sure that ***UICC Unlock*** is displayed.
 > 💡 If you have an active Sim Card, make a test call, or browse the internet to make sure service is working before continuing. 💡 <br/>
-> ⚠️ If you do NOT have an active Sim Card, connect to Wifi before continuing. ⚠️
+> ⚠️ If you do NOT have an active Sim Card, connect to Wifi before continuing if you haven't already. ⚠️
 
 ⭐ After ensuring ***UICC Unlock*** is showing in Software Update you can now move on to flashing firmware again.
 
