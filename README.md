@@ -50,7 +50,11 @@ Please make sure to download and set up everything before reading further!
 
 <img width="812" height="89" alt="image" src="https://github.com/user-attachments/assets/95b21787-b21f-46bf-902d-bdb66731e2d6" />
 
-⭐ You can now unzip both files, and we can begin the flashing process! 🥳
+⭐ Unzip both of the files, you should have two folders with the firmware files inside!
+
+<img width="652" height="179" alt="image" src="https://github.com/user-attachments/assets/84092568-a691-46c8-a8c6-3be391fd8220" />
+
+⭐ You can now open ODIN and begin flashing.
 
 </div>
 
@@ -71,6 +75,10 @@ Please make sure to download and set up everything before reading further!
 
 <div align="center"> 
 
+> ⚠️ You may ignore this popup, but if you want to be on the safe side remove your Google and Samsung account before flashing! ⚠️ <br/>
+
+<img width="399" height="397" alt="image" src="https://github.com/user-attachments/assets/c58c4970-21b3-45d5-becd-07b93c987330" />
+
 ---
 
 ## Enter Download Mode:
@@ -84,13 +92,10 @@ Please make sure to download and set up everything before reading further!
 
 ---
 
-⭐ When both files have been unzipped, you should have two folders with the firmware files inside!
-
-<img width="652" height="179" alt="image" src="https://github.com/user-attachments/assets/84092568-a691-46c8-a8c6-3be391fd8220" />
 
 > ❗❗ **Use the *"U1"* firmware files for this first flash!!** ❗❗ <br/>
 
-⭐ Open ODIN and make sure to put the files in their corrisponding slots:
+⭐ In ODIN make sure to put the files in their corrisponding slots:
 
 <img width="870" height="649" alt="image" src="https://github.com/user-attachments/assets/b6ec607c-4463-4423-8eaf-afd2d1198dd9" />
 
@@ -152,7 +157,7 @@ and make sure that ***UICC Unlock*** is displayed.
 ⭐ Place your phone into [Download Mode](#enter-download-mode) once again.<br/>
 > ❗❗ **Use the *"U"* firmware files for this second flash!!** ❗❗ <br/>
 
-⭐ Open ODIN and make sure to put the files in their corrisponding slots:
+⭐ In ODIN make sure to put the files in their corrisponding slots:
 
 <img width="870" height="649" alt="image" src="https://github.com/user-attachments/assets/b6ec607c-4463-4423-8eaf-afd2d1198dd9" />
 
@@ -160,6 +165,7 @@ and make sure that ***UICC Unlock*** is displayed.
 > ❗❗ **YOU DO NOT NEED TO PUT THE USERDATA FILE IN IT'S RESPECTIVE SLOT** ❗❗
 
 ⭐ Once you have every file in place, click **Start**, and your device should begin to flash<br/>
+
 ⭐ If everything went well, you should see PASS in ODIN, and your device should reboot!
 
 > ❗❗ **IF THE FLASH FAILS, YOU WILL BE UNABLE TO CONTINUE.. DOUBLE CHECK THAT YOU DOWNLOADED REGION CODE "SPR"** ❗❗
