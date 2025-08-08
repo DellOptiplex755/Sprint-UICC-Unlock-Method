@@ -1,4 +1,4 @@
-# Sprint UICC Unlock Guide
+# Sprint UICC Unlock Method
 
 > [!WARNING]
 > Your mileage may vary! I'm not 100% certain this will work for you! <br/>
