@@ -34,6 +34,6 @@
 
 ---
 
-# ⭐ [You can now open ODIN and begin flashing →](https://www.t-mobile.com/brand/project-10-million)
+# ⭐ [You can now open ODIN and begin flashing →](https://github.com/DellOptiplex755/Sprint-UICC-Unlock-Method/blob/main/Flashing1.md#-flashing-firmware-12)
 
 </div>
