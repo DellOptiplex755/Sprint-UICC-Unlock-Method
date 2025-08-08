@@ -23,4 +23,4 @@
 
 <div/>
 
-# UNLOCK2
+# [UNLOCK2](https://github.com/DellOptiplex755/Sprint-UICC-Unlock-Method/blob/main/FLashing2.md#-flashing-firmware-22)
