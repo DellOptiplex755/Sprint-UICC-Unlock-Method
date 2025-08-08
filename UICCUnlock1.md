@@ -31,3 +31,5 @@ and make sure that ***UICC Unlock*** is displayed.
 ⭐ After ensuring ***UICC Unlock*** is showing in Software Update you can now move on to flashing firmware again.
 
 <div/>
+
+# FLASH2
