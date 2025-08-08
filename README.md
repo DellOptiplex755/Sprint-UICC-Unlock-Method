@@ -29,7 +29,7 @@ Please make sure to download and set up everything before reading further!
 
 <img width="783" height="591" alt="image" src="https://github.com/user-attachments/assets/4102ed8a-bf77-4c3a-ab40-6571b5f7405a" />
 
-> 💡 It should look like this! 💡
+<sup>💡 **It should look like this!** 💡</sup>
 
 
 ⭐ Next, click the *"Check for updates"* button on the top left, and then the *"Download"* button.
@@ -37,8 +37,7 @@ Please make sure to download and set up everything before reading further!
 ---
 
 > ❗❗ **Bifrost will prompt you to save the firmware in a folder, make sure you put it somewhere you'll remember!** ❗❗
-
-> ⚠️ **This also may take some time to download!** ⚠️
+<br/> ⚠️ **This also may take some time to download!** ⚠️
 
 ---
 
@@ -92,15 +91,18 @@ Please make sure to download and set up everything before reading further!
 
 ---
 
-
-> ❗❗ **Use the *"U1"* firmware files for this first flash!!** ❗❗ <br/>
+⚠️ <ins>**Use the *"U1"* firmware files for this first flash!**</ins> ⚠️ <br/>
 
 ⭐ In ODIN make sure to put the files in their corrisponding slots:
 
 <img width="870" height="649" alt="image" src="https://github.com/user-attachments/assets/b6ec607c-4463-4423-8eaf-afd2d1198dd9" />
 
-> ❗❗ **MAKE SURE TO USE HOME_CSC IN THE CSC TAB OR YOU WILL WIPE YOUR DATA!** ❗❗ <br/>
-> ❗❗ **YOU DO NOT NEED TO PUT THE USERDATA FILE IN IT'S RESPECTIVE SLOT** ❗❗
+---
+
+> ❗❗ **MAKE SURE TO USE HOME_CSC IN THE CSC TAB OR YOU WILL WIPE YOUR DATA!** ❗❗ <br/> 
+❗❗ **YOU DO NOT NEED TO PUT THE USERDATA FILE IN IT'S RESPECTIVE SLOT** ❗❗
+
+---
 
 ⭐ Once you have every file in place, click **Start**, and your device should begin to flash<br/>
 
@@ -155,7 +157,8 @@ and make sure that ***UICC Unlock*** is displayed.
 # ⚡ Flashing Firmware (2/2):
 
 ⭐ Place your phone into [Download Mode](#enter-download-mode) once again.<br/>
-> ❗❗ **Use the *"U"* firmware files for this second flash!!** ❗❗ <br/>
+
+⚠️ <ins>**Use the *"U"* firmware files for the second flash!**</ins> ⚠️
 
 ⭐ In ODIN make sure to put the files in their corrisponding slots:
 
@@ -209,3 +212,13 @@ and make sure that ***UICC Unlock*** is displayed.
 ### Thank you so much for reading, and I hope it worked for you!!!!
 
 
+# Section Heading
+
+Some body text of this section.
+
+<a name="my-custom-anchor-point"></a>
+Some text I want to provide a direct link to, but which doesn't have its own heading.
+
+(… more content…)
+
+[A link to that custom anchor](#my-custom-anchor-point)
