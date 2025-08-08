@@ -212,13 +212,4 @@ and make sure that ***UICC Unlock*** is displayed.
 ### Thank you so much for reading, and I hope it worked for you!!!!
 
 
-# Section Heading
-
-Some body text of this section.
-
-<a name="my-custom-anchor-point"></a>
-Some text I want to provide a direct link to, but which doesn't have its own heading.
-
-(… more content…)
-
-[A link to that custom anchor](#my-custom-anchor-point)
+[Go HERE!](https://github.com/DellOptiplex755/Sprint-UICC-Unlock-Method/blob/main/Network-Pass.md#hello-world)
